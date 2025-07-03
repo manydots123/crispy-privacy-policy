@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crispy Food Recipe App - Support</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo-dark">
+        <img src="@CrispyDark.png" alt="Crispy Logo" height="48" style="height:48px;max-height:100%;width:auto;display:block;" />
+      </div>
+      <nav>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-title">Support Center</div>
+      <div class="hero-desc">We're here to help you get the most out of the Crispy Food Recipe App. Browse our FAQs or reach out to us directly!</div>
+    </section>
+
+    <section id="faq" class="faq-section">
+      <div class="faq-title">Frequently Asked Questions</div>
+      <div class="faq-list">
+        <div class="faq-card">
+          <div class="faq-q">How do I generate a recipe?</div>
+          <div class="faq-a">Simply enter your preferred ingredients and click the 'Generate Recipe' button. Our app will suggest a delicious crispy food recipe for you!</div>
+        </div>
+        <div class="faq-card">
+          <div class="faq-q">Is the app free to use?</div>
+          <div class="faq-a">Yes! Crispy Food Recipe App is completely free for all users.</div>
+        </div>
+        <div class="faq-card">
+          <div class="faq-q">How can I suggest a new feature?</div>
+          <div class="faq-a">We love feedback! Use the contact form below to send us your suggestions.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-title">Contact Support</div>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+        <div class="success-message" id="success-message">Thank you! Your message has been sent.</div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Crispy Food Recipe App.
+  </footer>
+</body>
+</html> 
